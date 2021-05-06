@@ -32,3 +32,9 @@ canvas {
     font-size: 23px;
     color: black;
 }
+
+.back {
+    background-color: black;
+    color: white;
+    float: right;
+}

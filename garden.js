@@ -6,6 +6,10 @@ function preload() {
     img = loadImage("garden.jpg");
 }
 
+function back() {
+    window.location = "index.html";
+}
+
 function setup() {
     canvas = createCanvas(640, 420);
     canvas.center();

@@ -14,6 +14,10 @@ function setup() {
     document.getElementById("status").innerHTML = "Status = Detecting Objects";
 }
 
+function back() {
+    window.location = "index.html";
+}
+
 function modelLoaded() {
     console.log("Model Loaded!");
     status = true;

@@ -20,6 +20,10 @@ function modelLoaded() {
     objectDetector.detect(img, gotResult);
 }
 
+function back() {
+    window.location = "index.html";
+}
+
 function draw() {
     image(img, 0, 0, 640, 420);
     if (status != "") {
